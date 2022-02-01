@@ -1,5 +1,16 @@
 // code your solution here
 function saturdayFun(activity = "roller-skate"){
+    return `This Saturday, I want to ${activity}!`;
+}
+
+function mondayWork(fun = "go to the office"){
+    return `This Monday, I will ${fun}.`;
+}
+
+function wrapAdjective(){
+
+}
+function saturdayFun(activity = "roller-skate"){
     return `This Saturday, I want to ${activity}!`
 }
 
@@ -9,6 +20,14 @@ function doesMondayWork(activity = `bathe my dog`){
 
 function mondayWork(activity = `go to the office`){
     return `This Monday, I will ${activity}.`
+}
+
+function wrapAdjective(result = `*`){
+    const greeting = `You are`
+    return function 
+innerFunction(emphatic = `a hard worker`){
+    return `${greeting} ${result}${emphatic}${result}!`
+};
 }
 
 // function mondayWork(activity = `work from home`){
@@ -43,13 +62,13 @@ function mondayWork(activity = `go to the office`){
 //     }
 // } this is incorrect maybe?
 
-function wrapAdjective(result = `*`){
-    const greeting = `You are`
-    return function 
-innerFunction(emphatic = `a hard worker`){
-    return `${greeting} ${result}${emphatic}${result}!`
-};
-}
+// function wrapAdjective(result = `*`){
+//     const greeting = `You are`
+//     return function 
+// innerFunction(emphatic = `a hard worker`){
+//     return `${greeting} ${result}${emphatic}${result}!`
+// };
+// }
 
 // function wrapAdjective(result = `||`){
 //     const open = `You are`
